@@ -111,3 +111,34 @@ body {
 
 h1 { color: #2c3e50; margin: 10px 0; }
 h2 { color: #2980b9; border-left: 4px solid #3498db; padding-left: 10px; }
+
+.contact-area {
+    margin-top: 20px;
+    text-align: center; /* Centra todo el bloque */
+}
+
+.contact-area p {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column; /* Esto pone uno debajo del otro */
+    gap: 8px; /* Espacio entre LinkedIn y Email */
+}
+
+.contact-item {
+    font-size: 0.95rem;
+}
+
+.contact-item a {
+    color: #3498db;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+}

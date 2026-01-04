@@ -30,6 +30,7 @@ section { margin-bottom: 40px; }
     height: 150px;      /* Debe ser igual al ancho */
     border-radius: 50%; /* Esto la hace circular */
     object-fit: cover;  /* Evita que la foto se estire */
+    object-position: center top;
     border: 3px solid #3498db; /* Un borde elegante */
     margin-bottom: 20px;
     display: block;

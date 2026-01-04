@@ -24,3 +24,21 @@ a {
 a:hover { text-decoration: underline; }
 
 section { margin-bottom: 40px; }
+
+.profile-img {
+    width: 150px;       /* Tamaño de la foto */
+    height: 150px;      /* Debe ser igual al ancho */
+    border-radius: 50%; /* Esto la hace circular */
+    object-fit: cover;  /* Evita que la foto se estire */
+    border: 3px solid #3498db; /* Un borde elegante */
+    margin-bottom: 20px;
+    display: block;
+}
+
+/* Para centrar la foto y el texto del header */
+header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

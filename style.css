@@ -26,20 +26,36 @@ a:hover { text-decoration: underline; }
 section { margin-bottom: 40px; }
 
 .profile-img {
-    width: 150px;       /* Tamaño de la foto */
-    height: 150px;      /* Debe ser igual al ancho */
-    border-radius: 50%; /* Esto la hace circular */
-    object-fit: cover;  /* Evita que la foto se estire */
-    object-position: center top;
-    border: 3px solid #3498db; /* Un borde elegante */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center top; /* Esta es la línea que ajustamos */
+    border: 3px solid #3498db;
     margin-bottom: 20px;
     display: block;
 }
 
-/* Para centrar la foto y el texto del header */
 header {
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #eee;
 }
+
+/* Estilos adicionales para que el resto se vea bien */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+    color: #333;
+    background-color: #fafafa;
+}
+
+h1 { color: #2c3e50; margin: 10px 0; }
+h2 { color: #2980b9; border-left: 4px solid #3498db; padding-left: 10px; }
